@@ -16,14 +16,16 @@ body{
     background: var(--Light-Gray);
     font-size: 16px;
     font-family: 'karla', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    flex-direction: column;
 }
 .main{
     background: #ffffff;
-    width: 600px;
-    height: 300px;
-    margin: 6.25rem auto;
-    padding: 0;
-    
+    width: 700px;    
 }
 .main .box > h1{
     color: var(--Cyan);
@@ -44,5 +46,10 @@ body{
     flex-direction: row;
     background:hsl(179, 62%, 43%);
     color:#ffffff;
-    
+    width: 100%;
+}
+
+.box {
+    width: 50%;
+    margin: 30px;
 }
