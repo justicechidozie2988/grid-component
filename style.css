@@ -16,16 +16,15 @@ body{
     background: var(--Light-Gray);
     font-size: 16px;
     font-family: 'karla', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 100vh;
-    flex-direction: column;
 }
 .main{
     background: #ffffff;
-    width: 700px;    
+    border-radius: 0.5rem;
+    width: 600px;
+    height: 300px;
+    margin: 6.25rem auto;
+    padding: 0;
+    
 }
 .main .box > h1{
     color: var(--Cyan);
@@ -36,20 +35,38 @@ body{
     color: var(--Bright-Yellow);
     padding: 1.25rem;
 }
-.para1{
+.main .box .para1{
+    color: var(--Grayish-Blue);
     padding: 1.25rem;
     margin-inline-end: 0.2rem;
     line-height: 1.5rem;
 }
 .mainBox{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* display: flex;
+    flex-direction: row; */
     background:hsl(179, 62%, 43%);
-    color:#ffffff;
-    width: 100%;
+    color:#ffffff; 
+}
+.mainBox .box,  h2, p{
+    padding: 1rem;
+}
+.btn{
+    background: var(--Bright-Yellow);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    margin-inline-start: 1rem;
+    margin-block-end: 1.5rem;
+    padding: 0.5rem
 }
 
-.box {
-    width: 50%;
-    margin: 30px;
+ul li{
+    line-height: 1.3rem;
+    list-style-type: none;
+}
+footer{
+    text-align: center;
+    line-height: 5rem;
 }
