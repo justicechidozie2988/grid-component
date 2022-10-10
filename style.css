@@ -61,6 +61,9 @@ body{
     margin-block-end: 1.5rem;
     padding: 0.5rem
 }
+ul{
+    margin-inline-start: 1rem;
+}
 
 ul li{
     line-height: 1.3rem;
@@ -72,22 +75,17 @@ footer{
 }
 @media only screen and (min-width: 375px){
     body{
-        text-align: center;
+/*         text-align: center; */
     }
     .main{
         width: 375px;
+        height: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
-        flex-direction: row;
+        flex-direction: column;   
     }
-       .mainB{
-        width: 375px;
+    .mainBox{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
+        flex-direction: column;
     }
-
 }
-    
