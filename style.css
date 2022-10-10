@@ -75,6 +75,14 @@ footer{
         text-align: center;
     }
     .main{
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+       .mainB{
+        width: 375px;
         display: flex;
         justify-content: center;
         align-items: center;
