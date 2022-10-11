@@ -73,7 +73,7 @@ footer{
     text-align: center;
     line-height: 5rem;
 }
-@media only screen and (min-width: 375px){
+/* @media only screen and (min-width: 375px){
 
     .main{
         justify-content: center;
@@ -84,3 +84,4 @@ footer{
         flex-direction: column;
     }
 }
+ */
